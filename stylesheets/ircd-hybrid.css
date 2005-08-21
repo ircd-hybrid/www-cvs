@@ -3,7 +3,7 @@
 *
 * The main website to the ircd-hybrid project.
 *
-* $Id: ircd-hybrid.css,v 1.1 2005/08/20 22:22:53 knight Exp $
+* $Id: ircd-hybrid.css,v 1.2 2005/08/21 00:55:04 knight Exp $
 */
 
 body {
@@ -21,7 +21,7 @@ p {
 }
 
 h1 {
-    font        : italic normal normal 20pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font        : normal normal normal 20pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
     margin      : 0;
     padding     : 0;
 }
@@ -29,7 +29,7 @@ h1 {
 h2 {
     background-color : rgb(66,81,88);
     color            : rgb(199,217,225);
-    font             : italic normal normal 8.5pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font             : normal normal normal 8.5pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
     margin           : 0.2em;
     padding          : 0;
 }
