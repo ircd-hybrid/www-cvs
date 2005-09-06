@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -8,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.html,v 1.5 2005/08/21 21:29:44 adx Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.3 2005/09/06 01:47:34 adx Exp $" />
     <meta name="Copyright" content="Copyright 2005, IRCD-Hybrid Team" />
     <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
     <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
@@ -49,7 +48,10 @@
     <div class="content" xml:lang="en">
         <p xml:lang="en">Welcome to the official site of the IRCD-Hybrid Project! Here you'll be able to find everything you'll need to get started in hosting your own IRC server as well as support.</p>
         <p xml:lang="en">We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.</p>
-        <p xml:lang="en"><br /><br />&raquo; <a href="downloads.html"><strong xml:lang="en">Current release of ircd-hybrid-7:</strong> 7.1.1</a><br />&raquo; <a href="downloads.html"><strong xml:lang="en">Current release of ircd-hybrid-6:</strong> 6.4.3</a></p>
+        <p xml:lang="en"><br /><br />
+	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-7: 7.1.1</a><br />
+	    &raquo; <a href="<?php list($fname) = @glob('snapshot/ircd-hybrid-CURRENT-*ChangeLog'); echo $fname ? $fname : 'snapshot/'; ?>">Latest CVS commits</a>
+	</p>
     </div>
    
     <div class="footer" xml:lang="en">
@@ -59,7 +61,7 @@
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.html,v 1.5 2005/08/21 21:29:44 adx Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.3 2005/09/06 01:47:34 adx Exp $</p>
    </div>
 </div>
 
