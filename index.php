@@ -1,5 +1,31 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
+<?php
+
+list($fname) = @glob('snapshot/ircd-hybrid-CURRENT-*ChangeLog');
+$delta = -1;
+
+if ($fname)
+    if (($fd = @fopen($fname, 'r')))
+    {
+	list($date, $time) = explode(' ', fgets($fd, 128));
+	$delta = (time() - (strtotime("$date $time")));
+	fclose($fd);
+
+	$units = array(86400 => 'day', 3600 => 'hour', 60 => 'minute',
+	    1 => 'second');
+	foreach ($units as $div => $unit)
+	    if ($delta >= $div)
+	    {
+		$delta /= $div;
+		settype($delta, 'integer');
+		$delta = ($delta == 1 ? "$delta $unit" : "$delta {$unit}s");
+		break;
+	    }
+    }
+
+?>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head xml:lang="en">
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
@@ -7,7 +33,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.3 2005/09/06 01:47:34 adx Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.4 2005/09/06 02:07:34 adx Exp $" />
     <meta name="Copyright" content="Copyright 2005, IRCD-Hybrid Team" />
     <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
     <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
@@ -50,7 +76,7 @@
         <p xml:lang="en">We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.</p>
         <p xml:lang="en"><br /><br />
 	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-7: 7.1.1</a><br />
-	    &raquo; <a href="<?php list($fname) = @glob('snapshot/ircd-hybrid-CURRENT-*ChangeLog'); echo $fname ? $fname : 'snapshot/'; ?>">Latest CVS commits</a>
+	    &raquo; <a href="<?php echo $fname ? $fname : 'snapshot/'; ?>">Latest CVS commit<?php if ($delta >= 0) echo " ($delta ago)"; ?></a>
 	</p>
     </div>
    
@@ -61,7 +87,7 @@
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.3 2005/09/06 01:47:34 adx Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.4 2005/09/06 02:07:34 adx Exp $</p>
    </div>
 </div>
 
