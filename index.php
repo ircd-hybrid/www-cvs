@@ -6,10 +6,10 @@ list($fname) = @glob('snapshot/ircd-hybrid-CURRENT-*ChangeLog');
 $delta = -1;
 
 if ($fname)
-    if (($fd = @fopen("http://www.ircd-hybrid.org/$fname", 'r')))
+    if (($fd = @fopen($fname, 'r')))
     {
 	list($date, $time) = explode(' ', fgets($fd, 128));
-	$delta = (time() - (strtotime("$date $time")));
+	$delta = time() - (strtotime("$date $time") - 3600*3);
 	fclose($fd);
 
 	$units = array(86400 => 'day', 3600 => 'hour', 60 => 'minute',
@@ -33,7 +33,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.5 2005/09/06 02:45:21 adx Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.6 2005/09/06 02:48:19 adx Exp $" />
     <meta name="Copyright" content="Copyright 2005, IRCD-Hybrid Team" />
     <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
     <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
@@ -87,7 +87,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.5 2005/09/06 02:45:21 adx Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.6 2005/09/06 02:48:19 adx Exp $</p>
    </div>
 </div>
 
