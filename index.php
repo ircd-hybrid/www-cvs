@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.7 2005/09/07 03:29:40 adx Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.8 2005/09/08 19:37:43 adx Exp $" />
     <meta name="Copyright" content="Copyright 2005, IRCD-Hybrid Team" />
     <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
     <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
@@ -62,7 +62,7 @@ if ($fname)
     
     <div>
         <ul class="navbar" xml:lang="en">
-            <li xml:lang="en"><a href="index.html" class="nav">Home</a></li>
+            <li xml:lang="en"><a href="index.php" class="nav">Home</a></li>
             <li xml:lang="en"><a href="downloads.html" class="nav">Downloads</a></li>
             <li xml:lang="en"><a href="support.html" class="nav">Support</a></li>
             <li xml:lang="en"><a href="history.html" class="nav">History</a></li>
@@ -86,7 +86,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.7 2005/09/07 03:29:40 adx Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.8 2005/09/08 19:37:43 adx Exp $</p>
    </div>
 </div>
 
