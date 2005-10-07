@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.10 2005/09/28 00:48:39 adx Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.11 2005/10/07 14:52:05 adx Exp $" />
     <meta name="Copyright" content="Copyright 2005, IRCD-Hybrid Team" />
     <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
     <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
@@ -76,7 +76,7 @@ if ($fname)
         <p xml:lang="en"><br /><br />
 	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-7: 7.1.2</a><br />
 	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-6: 6.4.4</a><br />
-	    &raquo; <a href="<?php echo $fname ? $fname : 'snapshot/'; ?>">Latest CVS commit<?php if ($delta >= 0) echo " ($delta ago)"; ?></a>
+	    &raquo; <a href="<?php echo $fname ? $fname : 'snapshot/'; ?>">Latest SVN commit<?php if ($delta >= 0) echo " ($delta ago)"; ?></a>
 	</p>
     </div>
    
@@ -87,7 +87,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.10 2005/09/28 00:48:39 adx Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.11 2005/10/07 14:52:05 adx Exp $</p>
    </div>
 </div>
 
