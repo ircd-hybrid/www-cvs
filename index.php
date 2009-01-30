@@ -10,7 +10,7 @@ if ($fname)
 	list($date, $time) = explode(' ', fgets($fd, 128));
 	$delta = time() - (strtotime("$date $time") - 3600*3);
 	fclose($fd);
-        $tmpdelta = $delta
+        $tmpdelta = $delta;
 
 	$units = array(86400 => 'day', 3600 => 'hour', 60 => 'minute',
 	    1 => 'second');
@@ -33,7 +33,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.21 2009/01/30 16:13:15 lusky Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.22 2009/01/30 16:14:50 lusky Exp $" />
     <meta name="Copyright" content="Copyright 2005-2006, IRCD-Hybrid Team" />
     <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
     <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
@@ -79,7 +79,7 @@ if ($fname)
 	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-6:&nbsp; 6.4.4</a><br /><br />
 	    &raquo; <a href="<?php echo $fname; ?>">Latest commit &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
 	</p>
-	Debug: <?php echo "tmpdelta"; ?>
+	Debug: <?php echo "$tmpdelta"; ?>
     </div>
    
     <div class="footer" xml:lang="en">
@@ -89,7 +89,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.21 2009/01/30 16:13:15 lusky Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.22 2009/01/30 16:14:50 lusky Exp $</p>
    </div>
 </div>
 
