@@ -32,10 +32,9 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.26 2009/01/30 16:30:43 lusky Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.27 2009/08/16 11:39:38 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2006, IRCD-Hybrid Team" />
-    <meta name="Generator" content="Zend Studio 4.0.2 Enterprise Edition" />
-    <meta name="Description" content="IRCD-Hybrid, a high performance ircd daemon" />
+    <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
     <meta name="keywords" content="IRC Software, IRC Server, ircd, hybrid, tcm" />
     <meta name="MSSmartTagsPreventParsing" content="true" />
@@ -49,7 +48,6 @@ if ($fname)
     @import url(stylesheets/ircd-hybrid.css);
     /*]]>*/
     </style>
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://forum.ircd-hybrid.org/rss.php" />
 </head>
 
 <body xml:lang="en">
@@ -82,12 +80,12 @@ if ($fname)
    
     <div class="footer" xml:lang="en">
         <div class="right" xml:lang="en">
-            <p xml:lang="en">Copyright &copy; 1997-2007 IRCD-Hybrid Development Team</p>
+            <p xml:lang="en">Copyright &copy; 1997-2009 IRCD-Hybrid Development Team</p>
             <p xml:lang="en"><a href="http://validator.w3.org/check/referer">Valid XHTML 1.1 Strict</a></p>
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.26 2009/01/30 16:30:43 lusky Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.27 2009/08/16 11:39:38 michael Exp $</p>
    </div>
 </div>
 
