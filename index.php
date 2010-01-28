@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.27 2009/08/16 11:39:38 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.28 2010/01/28 04:55:36 lusky Exp $" />
     <meta name="Copyright" content="Copyright 2005-2006, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -72,20 +72,19 @@ if ($fname)
         <p xml:lang="en">Welcome to the official site of the IRCD-Hybrid Project! Here you'll be able to find everything you'll need to get started in hosting your own IRC server as well as support.</p>
         <p xml:lang="en">We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.</p>
         <p xml:lang="en"><br />
-	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-7:&nbsp; 7.2.3</a><br />
-	    &raquo; <a href="downloads.html">Current release of ircd-hybrid-6:&nbsp; 6.4.4</a><br /><br />
-	    &raquo; <a href="<?php echo $fname; ?>">Latest commit &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
+	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid-7:&nbsp; 7.2.3</a><br />
+	    &raquo; <a href="<?php echo $fname; ?>">Latest commit to CURRENT &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
 	</p>
     </div>
    
     <div class="footer" xml:lang="en">
         <div class="right" xml:lang="en">
-            <p xml:lang="en">Copyright &copy; 1997-2009 IRCD-Hybrid Development Team</p>
+            <p xml:lang="en">Copyright &copy; 1997-2010 IRCD-Hybrid Development Team</p>
             <p xml:lang="en"><a href="http://validator.w3.org/check/referer">Valid XHTML 1.1 Strict</a></p>
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.27 2009/08/16 11:39:38 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.28 2010/01/28 04:55:36 lusky Exp $</p>
    </div>
 </div>
 
