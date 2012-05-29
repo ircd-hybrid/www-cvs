@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.33 2012/02/04 21:45:25 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.34 2012/05/29 19:41:10 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2012, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -73,6 +73,7 @@ if ($fname)
         <p xml:lang="en">We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.</p>
         <p xml:lang="en"><br />
 	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid-7:&nbsp; 7.3.1</a><br />
+            &raquo; <a href="downloads.html">Latest BETA release of ircd-hybrid-8:&nbsp; 8.0.0beta1</a><br />
 	    &raquo; <a href="<?php echo $fname; ?>">Latest commit to CURRENT &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
 	</p>
     </div>
@@ -84,7 +85,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.33 2012/02/04 21:45:25 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.34 2012/05/29 19:41:10 michael Exp $</p>
    </div>
 </div>
 
