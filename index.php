@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <?php
 
-list($fname) = @glob('snapshot/ircd-hybrid-8-CURRENT-*ChangeLog');
+list($fname) = @glob('snapshot/ircd-hybrid-TRUNK-*ChangeLog');
 $delta = -1;
 
 if ($fname)
@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.38 2012/10/19 19:25:23 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.39 2012/10/30 20:34:28 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2012, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -74,7 +74,7 @@ if ($fname)
         <p xml:lang="en"><br />
 	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid-8:&nbsp; 8.0.0</a><br />
 <!--            &raquo; <a href="downloads.html">Latest BETA release of ircd-hybrid-8:&nbsp; 8.0.0rc1</a><br /> -->
-	    &raquo; <a href="<?php echo $fname; ?>">Latest commit to CURRENT &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
+	    &raquo; <a href="<?php echo $fname; ?>">Latest commit to TRUNK &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
 	</p>
     </div>
    
@@ -85,7 +85,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.38 2012/10/19 19:25:23 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.39 2012/10/30 20:34:28 michael Exp $</p>
    </div>
 </div>
 
