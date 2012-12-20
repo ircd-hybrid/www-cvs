@@ -2,7 +2,7 @@
 
 header('Content-Type: text/plain');
 
-list($fname) = @glob('snapshot/ircd-hybrid-CURRENT-*ChangeLog');
+list($fname) = @glob('snapshot/ircd-hybrid-TRUNK-*ChangeLog');
 readfile($fname);
 
 ?>
@@ -9853,7 +9853,7 @@ readfile($fname);
 
 	* configure, configure.ac, tools/rsa_respond/configure,
 	  tools/rsa_respond/configure.ac:
-	  - tools/rsa_respond/: looks like $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ needed m4 quotage. fixed.
+	  - tools/rsa_respond/: looks like $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ needed m4 quotage. fixed.
 	  - top-level configure(.ac): follow suit
 
 2003-06-19 21:43  joshk
@@ -21731,7 +21731,7 @@ readfile($fname);
 
 2001-12-25 01:51  androsyn
 
-	* src/: s_stats.c, scache.c: Fixed more bogus $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ tags..
+	* src/: s_stats.c, scache.c: Fixed more bogus $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ tags..
 
 2001-12-25 01:48  db
 
@@ -22238,7 +22238,7 @@ readfile($fname);
 2001-12-10 22:42  a1kmm
 
 	* modules/Makefile.in, modules/core/Makefile.in, src/Makefile.in:
-	  - Fixed $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ tags echoed from Makefile.in into .depend
+	  - Fixed $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ tags echoed from Makefile.in into .depend
 
 2001-12-10 22:35  db
 
@@ -22262,7 +22262,7 @@ readfile($fname);
 	    when we don't have libcrypto.
 	  - Took the dependency build out of configure.
 	  - Added a depend target to help/Makefile.in
-	  - Added a $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ tag to help/Makefile.in so commit doesn't complain.
+	  - Added a $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ tag to help/Makefile.in so commit doesn't complain.
 
 2001-12-10 22:17  joant
 
@@ -22382,7 +22382,7 @@ readfile($fname);
 2001-12-06 17:52  davidt
 
 	* TODO:
-	  - Add $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ line.
+	  - Add $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ line.
 
 2001-12-06 16:55  androsyn
 
@@ -31564,7 +31564,7 @@ readfile($fname);
 
 	* contrib/: spy_stats_notice.c, stats_notice.c:
 	  - corrected formatting
-	  - added CVS $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ string in comments
+	  - added CVS $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ string in comments
 
 2001-01-26 18:07  db
 
@@ -39816,7 +39816,7 @@ readfile($fname);
 	* tools/rsa_respond/: Makefile, README, buffer.c, buffer.h,
 	  rsa_respond.c:
 
-	  Added $Id: fullhist.php,v 1.1 2005/11/03 18:52:18 adx Exp $ tags to rsa_respond (oops)
+	  Added $Id: fullhist.php,v 1.2 2012/12/20 12:19:22 michael Exp $ tags to rsa_respond (oops)
 
 2000-11-05 20:33  ryan
 
