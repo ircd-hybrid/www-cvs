@@ -32,8 +32,8 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.44 2012/12/24 12:16:51 michael Exp $" />
-    <meta name="Copyright" content="Copyright 2005-2012, IRCD-Hybrid Team" />
+    <meta name="Author" content="$Id: index.php,v 1.45 2013/01/03 00:18:58 michael Exp $" />
+    <meta name="Copyright" content="Copyright 2005-2013, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
     <meta name="keywords" content="IRC Software, IRC Server, ircd, hybrid, tcm" />
@@ -72,7 +72,7 @@ if ($fname)
         <p xml:lang="en">Welcome to the official site of the IRCD-Hybrid Project! Here you'll be able to find everything you'll need to get started in hosting your own IRC server as well as support.</p>
         <p xml:lang="en">We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.</p>
         <p xml:lang="en"><br />
-	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid-8:&nbsp; 8.0.3</a><br />
+	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid-8:&nbsp; 8.0.4</a><br />
 <!--            &raquo; <a href="downloads.html">Latest BETA release of ircd-hybrid-8:&nbsp; 8.0.0rc1</a><br /> -->
 	    &raquo; <a href="<?php echo $fname; ?>">Latest commit to TRUNK &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br />
 	</p>
@@ -80,12 +80,12 @@ if ($fname)
    
     <div class="footer" xml:lang="en">
         <div class="right" xml:lang="en">
-            <p xml:lang="en">Copyright &copy; 1997-2012 IRCD-Hybrid Development Team</p>
+            <p xml:lang="en">Copyright &copy; 1997-2013 IRCD-Hybrid Development Team</p>
             <p xml:lang="en"><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.1 Strict</a></p>
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.44 2012/12/24 12:16:51 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.45 2013/01/03 00:18:58 michael Exp $</p>
    </div>
 </div>
 
