@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.55 2013/05/16 10:12:20 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.56 2013/05/19 11:49:14 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2013, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -71,6 +71,7 @@ if ($fname)
     <div class="content" xml:lang="en">
         <p xml:lang="en">Welcome to the official site of the IRCD-Hybrid Project! Here you'll be able to find everything you'll need to get started in hosting your own IRC server as well as support.</p>
         <p xml:lang="en">We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.</p>
+        <p xml:lang="en">In case you're also looking for an IRC services package, we strongly recommend the Anope IRC Services.</p>
         <p xml:lang="en"><br />
 	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid:&nbsp; 8.0.9</a><br />
             &raquo; <a href="downloads.html">Latest BETA release of ircd-hybrid:&nbsp; 8.1.0beta5</a><br />
@@ -85,7 +86,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.55 2013/05/16 10:12:20 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.56 2013/05/19 11:49:14 michael Exp $</p>
    </div>
 </div>
 
