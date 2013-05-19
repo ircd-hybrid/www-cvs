@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.56 2013/05/19 11:49:14 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.57 2013/05/19 11:58:55 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2013, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -63,7 +63,6 @@ if ($fname)
             <li xml:lang="en"><a href="index.php" class="nav">Home</a></li>
             <li xml:lang="en"><a href="downloads.html" class="nav">Downloads</a></li>
             <li xml:lang="en"><a href="support.html" class="nav">Support</a></li>
-            <li xml:lang="en"><a href="history.html" class="nav">History</a></li>
             <li xml:lang="en"><a href="team.html" class="nav">Team</a></li>
         </ul>
     </div>
@@ -86,7 +85,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.56 2013/05/19 11:49:14 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.57 2013/05/19 11:58:55 michael Exp $</p>
    </div>
 </div>
 
