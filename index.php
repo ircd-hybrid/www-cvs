@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.93 2014/08/09 21:08:12 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.94 2014/08/09 21:17:48 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2014, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -79,8 +79,10 @@ if ($fname)
 
 
         <h2 xml:lang="en">Travis CI and Coverity Scan ::</h2>
-        <p xml:lang="en">&raquo; <a href="https://travis-ci.org/ircd-hybrid/ircd-hybrid">IRCD-Hybrid on Travis CI</a></p>
-        <p xml:lang="en">&raquo; <a href="https://scan.coverity.com/projects/1086">IRCD-Hybrid on Coverity Scan</a></p>
+        <p xml:lang="en"><br />
+            &raquo; <a href="https://travis-ci.org/ircd-hybrid/ircd-hybrid">ircd-hybrid on Travis CI</a><br />
+            &raquo; <a href="https://scan.coverity.com/projects/1086">ircd-hybrid on Coverity Scan</a><br />
+        </p>
 
     </div>
    
@@ -91,7 +93,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.93 2014/08/09 21:08:12 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.94 2014/08/09 21:17:48 michael Exp $</p>
    </div>
 </div>
 
