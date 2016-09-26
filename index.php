@@ -32,7 +32,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.133 2016/08/21 18:53:58 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.134 2016/09/26 18:12:34 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2016, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -76,7 +76,7 @@ if ($fname)
 	    &raquo; <a href="downloads.html">Latest STABLE release of ircd-hybrid:&nbsp; 8.2.19</a> <br />
 <!--            &raquo; <a href="downloads.html">Latest BETA release of ircd-hybrid:&nbsp; 8.2.0rc2</a> <br />    -->
 	    &raquo; <a href="<?php echo $fname; ?>">Latest commit to TRUNK &mdash; <?php if ($delta >= 0) echo "$delta ago"; else echo "unknown"; ?></a><br /> <br />
-            &raquo; <a href="downloads.html">Latest STABLE release of HOPM (hybrid open proxy monitor):&nbsp; 1.1.2</a> <br />
+            &raquo; <a href="downloads.html">Latest STABLE release of HOPM (hybrid open proxy monitor):&nbsp; 1.1.3</a> <br />
 <!--            &raquo; <a href="downloads.html">Latest BETA release of HOPM (hybrid open proxy monitor):&nbsp; 1.1.0beta1</a> <br /> -->
 	</p>
 
@@ -96,7 +96,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.133 2016/08/21 18:53:58 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.134 2016/09/26 18:12:34 michael Exp $</p>
    </div>
 </div>
 
