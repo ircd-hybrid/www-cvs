@@ -7,6 +7,7 @@ $delta = -1;
 if ($fname)
     if (($fd = @fopen($fname, 'r')))
     {
+	date_default_timezone_set('UTC');
 	list($date, $time) = explode(' ', fgets($fd, 128));
 	$delta = (time() - (strtotime("$date $time")+4*3600));
 	fclose($fd);
@@ -32,7 +33,7 @@ if ($fname)
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta name="Author" content="$Id: index.php,v 1.139 2017/04/05 13:18:09 michael Exp $" />
+    <meta name="Author" content="$Id: index.php,v 1.140 2018/02/19 19:02:27 michael Exp $" />
     <meta name="Copyright" content="Copyright 2005-2017, IRCD-Hybrid Team" />
     <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
     <meta name="Googlebot" content="index, follow, archive" />
@@ -96,7 +97,7 @@ if ($fname)
         </div>
        
         <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
-        <p xml:lang="en">$Id: index.php,v 1.139 2017/04/05 13:18:09 michael Exp $</p>
+        <p xml:lang="en">$Id: index.php,v 1.140 2018/02/19 19:02:27 michael Exp $</p>
    </div>
 </div>
 
